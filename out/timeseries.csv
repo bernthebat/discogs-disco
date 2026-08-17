@@ -1,0 +1,1513 @@
+style,country,year,count
+Disco,ALL,1970,137
+Disco,ALL,1971,131
+Disco,ALL,1972,560
+Disco,ALL,1973,1473
+Disco,ALL,1974,4214
+Disco,ALL,1975,11048
+Disco,ALL,1976,18063
+Disco,ALL,1977,22818
+Disco,ALL,1978,30282
+Disco,ALL,1979,37439
+Disco,ALL,1980,23048
+Disco,ALL,1981,19193
+Disco,ALL,1982,18730
+Disco,ALL,1983,19648
+Disco,ALL,1984,16832
+Disco,ALL,1985,15910
+Disco,ALL,1986,13868
+Disco,ALL,1987,12301
+Disco,ALL,1988,9854
+Disco,ALL,1989,7520
+Disco,ALL,1990,5452
+Disco,US,1970,13
+Disco,US,1971,23
+Disco,US,1972,150
+Disco,US,1973,433
+Disco,US,1974,1030
+Disco,US,1975,3064
+Disco,US,1976,5044
+Disco,US,1977,5791
+Disco,US,1978,7855
+Disco,US,1979,10354
+Disco,US,1980,5839
+Disco,US,1981,4752
+Disco,US,1982,4528
+Disco,US,1983,3967
+Disco,US,1984,2951
+Disco,US,1985,2244
+Disco,US,1986,1839
+Disco,US,1987,1529
+Disco,US,1988,1083
+Disco,US,1989,858
+Disco,US,1990,563
+Disco,UK,1970,16
+Disco,UK,1971,15
+Disco,UK,1972,50
+Disco,UK,1973,218
+Disco,UK,1974,498
+Disco,UK,1975,1133
+Disco,UK,1976,1758
+Disco,UK,1977,1973
+Disco,UK,1978,2704
+Disco,UK,1979,3525
+Disco,UK,1980,1988
+Disco,UK,1981,1875
+Disco,UK,1982,1896
+Disco,UK,1983,2215
+Disco,UK,1984,1825
+Disco,UK,1985,1702
+Disco,UK,1986,1503
+Disco,UK,1987,1336
+Disco,UK,1988,1117
+Disco,UK,1989,925
+Disco,UK,1990,681
+Disco,Italy,1970,8
+Disco,Italy,1971,14
+Disco,Italy,1972,41
+Disco,Italy,1973,80
+Disco,Italy,1974,264
+Disco,Italy,1975,688
+Disco,Italy,1976,1135
+Disco,Italy,1977,1754
+Disco,Italy,1978,1903
+Disco,Italy,1979,2117
+Disco,Italy,1980,1409
+Disco,Italy,1981,1120
+Disco,Italy,1982,1356
+Disco,Italy,1983,1994
+Disco,Italy,1984,2141
+Disco,Italy,1985,1832
+Disco,Italy,1986,1551
+Disco,Italy,1987,1340
+Disco,Italy,1988,914
+Disco,Italy,1989,764
+Disco,Italy,1990,477
+Disco,Germany,1970,10
+Disco,Germany,1971,10
+Disco,Germany,1972,55
+Disco,Germany,1973,84
+Disco,Germany,1974,290
+Disco,Germany,1975,671
+Disco,Germany,1976,1194
+Disco,Germany,1977,1421
+Disco,Germany,1978,1703
+Disco,Germany,1979,2244
+Disco,Germany,1980,1434
+Disco,Germany,1981,1212
+Disco,Germany,1982,1055
+Disco,Germany,1983,1380
+Disco,Germany,1984,1261
+Disco,Germany,1985,1582
+Disco,Germany,1986,1466
+Disco,Germany,1987,1359
+Disco,Germany,1988,1175
+Disco,Germany,1989,898
+Disco,Germany,1990,660
+Disco,Spain,1970,11
+Disco,Spain,1971,15
+Disco,Spain,1972,29
+Disco,Spain,1973,34
+Disco,Spain,1974,204
+Disco,Spain,1975,405
+Disco,Spain,1976,717
+Disco,Spain,1977,1103
+Disco,Spain,1978,1225
+Disco,Spain,1979,1301
+Disco,Spain,1980,889
+Disco,Spain,1981,806
+Disco,Spain,1982,829
+Disco,Spain,1983,1013
+Disco,Spain,1984,842
+Disco,Spain,1985,897
+Disco,Spain,1986,892
+Disco,Spain,1987,827
+Disco,Spain,1988,635
+Disco,Spain,1989,294
+Disco,Spain,1990,158
+Italo-Disco,ALL,1970,0
+Italo-Disco,ALL,1971,0
+Italo-Disco,ALL,1972,0
+Italo-Disco,ALL,1973,0
+Italo-Disco,ALL,1974,2
+Italo-Disco,ALL,1975,1
+Italo-Disco,ALL,1976,0
+Italo-Disco,ALL,1977,2
+Italo-Disco,ALL,1978,2
+Italo-Disco,ALL,1979,15
+Italo-Disco,ALL,1980,212
+Italo-Disco,ALL,1981,385
+Italo-Disco,ALL,1982,981
+Italo-Disco,ALL,1983,2750
+Italo-Disco,ALL,1984,3533
+Italo-Disco,ALL,1985,3911
+Italo-Disco,ALL,1986,3842
+Italo-Disco,ALL,1987,3398
+Italo-Disco,ALL,1988,2674
+Italo-Disco,ALL,1989,1819
+Italo-Disco,ALL,1990,978
+Italo-Disco,US,1970,0
+Italo-Disco,US,1971,0
+Italo-Disco,US,1972,0
+Italo-Disco,US,1973,0
+Italo-Disco,US,1974,0
+Italo-Disco,US,1975,0
+Italo-Disco,US,1976,0
+Italo-Disco,US,1977,0
+Italo-Disco,US,1978,0
+Italo-Disco,US,1979,0
+Italo-Disco,US,1980,25
+Italo-Disco,US,1981,24
+Italo-Disco,US,1982,26
+Italo-Disco,US,1983,53
+Italo-Disco,US,1984,62
+Italo-Disco,US,1985,64
+Italo-Disco,US,1986,70
+Italo-Disco,US,1987,76
+Italo-Disco,US,1988,53
+Italo-Disco,US,1989,36
+Italo-Disco,US,1990,17
+Italo-Disco,UK,1970,0
+Italo-Disco,UK,1971,0
+Italo-Disco,UK,1972,0
+Italo-Disco,UK,1973,0
+Italo-Disco,UK,1974,0
+Italo-Disco,UK,1975,0
+Italo-Disco,UK,1976,0
+Italo-Disco,UK,1977,0
+Italo-Disco,UK,1978,0
+Italo-Disco,UK,1979,0
+Italo-Disco,UK,1980,3
+Italo-Disco,UK,1981,5
+Italo-Disco,UK,1982,17
+Italo-Disco,UK,1983,90
+Italo-Disco,UK,1984,45
+Italo-Disco,UK,1985,56
+Italo-Disco,UK,1986,37
+Italo-Disco,UK,1987,59
+Italo-Disco,UK,1988,56
+Italo-Disco,UK,1989,35
+Italo-Disco,UK,1990,21
+Italo-Disco,Italy,1970,0
+Italo-Disco,Italy,1971,0
+Italo-Disco,Italy,1972,0
+Italo-Disco,Italy,1973,0
+Italo-Disco,Italy,1974,2
+Italo-Disco,Italy,1975,1
+Italo-Disco,Italy,1976,0
+Italo-Disco,Italy,1977,2
+Italo-Disco,Italy,1978,0
+Italo-Disco,Italy,1979,10
+Italo-Disco,Italy,1980,98
+Italo-Disco,Italy,1981,199
+Italo-Disco,Italy,1982,518
+Italo-Disco,Italy,1983,1248
+Italo-Disco,Italy,1984,1635
+Italo-Disco,Italy,1985,1410
+Italo-Disco,Italy,1986,1230
+Italo-Disco,Italy,1987,1054
+Italo-Disco,Italy,1988,726
+Italo-Disco,Italy,1989,593
+Italo-Disco,Italy,1990,340
+Italo-Disco,Germany,1970,0
+Italo-Disco,Germany,1971,0
+Italo-Disco,Germany,1972,0
+Italo-Disco,Germany,1973,0
+Italo-Disco,Germany,1974,0
+Italo-Disco,Germany,1975,0
+Italo-Disco,Germany,1976,0
+Italo-Disco,Germany,1977,0
+Italo-Disco,Germany,1978,1
+Italo-Disco,Germany,1979,0
+Italo-Disco,Germany,1980,12
+Italo-Disco,Germany,1981,25
+Italo-Disco,Germany,1982,81
+Italo-Disco,Germany,1983,354
+Italo-Disco,Germany,1984,409
+Italo-Disco,Germany,1985,530
+Italo-Disco,Germany,1986,408
+Italo-Disco,Germany,1987,348
+Italo-Disco,Germany,1988,345
+Italo-Disco,Germany,1989,203
+Italo-Disco,Germany,1990,121
+Italo-Disco,Spain,1970,0
+Italo-Disco,Spain,1971,0
+Italo-Disco,Spain,1972,0
+Italo-Disco,Spain,1973,0
+Italo-Disco,Spain,1974,0
+Italo-Disco,Spain,1975,0
+Italo-Disco,Spain,1976,0
+Italo-Disco,Spain,1977,0
+Italo-Disco,Spain,1978,0
+Italo-Disco,Spain,1979,1
+Italo-Disco,Spain,1980,3
+Italo-Disco,Spain,1981,31
+Italo-Disco,Spain,1982,57
+Italo-Disco,Spain,1983,199
+Italo-Disco,Spain,1984,287
+Italo-Disco,Spain,1985,300
+Italo-Disco,Spain,1986,376
+Italo-Disco,Spain,1987,330
+Italo-Disco,Spain,1988,245
+Italo-Disco,Spain,1989,89
+Italo-Disco,Spain,1990,29
+Hi NRG,ALL,1970,0
+Hi NRG,ALL,1971,0
+Hi NRG,ALL,1972,0
+Hi NRG,ALL,1973,0
+Hi NRG,ALL,1974,0
+Hi NRG,ALL,1975,2
+Hi NRG,ALL,1976,0
+Hi NRG,ALL,1977,4
+Hi NRG,ALL,1978,32
+Hi NRG,ALL,1979,126
+Hi NRG,ALL,1980,70
+Hi NRG,ALL,1981,184
+Hi NRG,ALL,1982,586
+Hi NRG,ALL,1983,1242
+Hi NRG,ALL,1984,1797
+Hi NRG,ALL,1985,1378
+Hi NRG,ALL,1986,1386
+Hi NRG,ALL,1987,1493
+Hi NRG,ALL,1988,1449
+Hi NRG,ALL,1989,1432
+Hi NRG,ALL,1990,1061
+Hi NRG,US,1970,0
+Hi NRG,US,1971,0
+Hi NRG,US,1972,0
+Hi NRG,US,1973,0
+Hi NRG,US,1974,0
+Hi NRG,US,1975,0
+Hi NRG,US,1976,0
+Hi NRG,US,1977,0
+Hi NRG,US,1978,15
+Hi NRG,US,1979,35
+Hi NRG,US,1980,23
+Hi NRG,US,1981,50
+Hi NRG,US,1982,99
+Hi NRG,US,1983,225
+Hi NRG,US,1984,261
+Hi NRG,US,1985,241
+Hi NRG,US,1986,273
+Hi NRG,US,1987,342
+Hi NRG,US,1988,292
+Hi NRG,US,1989,196
+Hi NRG,US,1990,85
+Hi NRG,UK,1970,0
+Hi NRG,UK,1971,0
+Hi NRG,UK,1972,0
+Hi NRG,UK,1973,0
+Hi NRG,UK,1974,0
+Hi NRG,UK,1975,0
+Hi NRG,UK,1976,0
+Hi NRG,UK,1977,0
+Hi NRG,UK,1978,1
+Hi NRG,UK,1979,14
+Hi NRG,UK,1980,7
+Hi NRG,UK,1981,11
+Hi NRG,UK,1982,38
+Hi NRG,UK,1983,160
+Hi NRG,UK,1984,341
+Hi NRG,UK,1985,235
+Hi NRG,UK,1986,235
+Hi NRG,UK,1987,278
+Hi NRG,UK,1988,221
+Hi NRG,UK,1989,184
+Hi NRG,UK,1990,113
+Hi NRG,Italy,1970,0
+Hi NRG,Italy,1971,0
+Hi NRG,Italy,1972,0
+Hi NRG,Italy,1973,0
+Hi NRG,Italy,1974,0
+Hi NRG,Italy,1975,0
+Hi NRG,Italy,1976,0
+Hi NRG,Italy,1977,0
+Hi NRG,Italy,1978,0
+Hi NRG,Italy,1979,4
+Hi NRG,Italy,1980,3
+Hi NRG,Italy,1981,12
+Hi NRG,Italy,1982,37
+Hi NRG,Italy,1983,44
+Hi NRG,Italy,1984,17
+Hi NRG,Italy,1985,35
+Hi NRG,Italy,1986,26
+Hi NRG,Italy,1987,24
+Hi NRG,Italy,1988,80
+Hi NRG,Italy,1989,226
+Hi NRG,Italy,1990,264
+Hi NRG,Germany,1970,0
+Hi NRG,Germany,1971,0
+Hi NRG,Germany,1972,0
+Hi NRG,Germany,1973,0
+Hi NRG,Germany,1974,0
+Hi NRG,Germany,1975,0
+Hi NRG,Germany,1976,0
+Hi NRG,Germany,1977,3
+Hi NRG,Germany,1978,0
+Hi NRG,Germany,1979,5
+Hi NRG,Germany,1980,6
+Hi NRG,Germany,1981,11
+Hi NRG,Germany,1982,30
+Hi NRG,Germany,1983,73
+Hi NRG,Germany,1984,110
+Hi NRG,Germany,1985,133
+Hi NRG,Germany,1986,101
+Hi NRG,Germany,1987,86
+Hi NRG,Germany,1988,91
+Hi NRG,Germany,1989,63
+Hi NRG,Germany,1990,41
+Hi NRG,Spain,1970,0
+Hi NRG,Spain,1971,0
+Hi NRG,Spain,1972,0
+Hi NRG,Spain,1973,0
+Hi NRG,Spain,1974,0
+Hi NRG,Spain,1975,0
+Hi NRG,Spain,1976,0
+Hi NRG,Spain,1977,0
+Hi NRG,Spain,1978,1
+Hi NRG,Spain,1979,6
+Hi NRG,Spain,1980,1
+Hi NRG,Spain,1981,2
+Hi NRG,Spain,1982,27
+Hi NRG,Spain,1983,50
+Hi NRG,Spain,1984,67
+Hi NRG,Spain,1985,43
+Hi NRG,Spain,1986,43
+Hi NRG,Spain,1987,63
+Hi NRG,Spain,1988,45
+Hi NRG,Spain,1989,24
+Hi NRG,Spain,1990,12
+Euro-Disco,ALL,1970,0
+Euro-Disco,ALL,1971,0
+Euro-Disco,ALL,1972,0
+Euro-Disco,ALL,1973,0
+Euro-Disco,ALL,1974,1
+Euro-Disco,ALL,1975,4
+Euro-Disco,ALL,1976,17
+Euro-Disco,ALL,1977,64
+Euro-Disco,ALL,1978,76
+Euro-Disco,ALL,1979,85
+Euro-Disco,ALL,1980,77
+Euro-Disco,ALL,1981,72
+Euro-Disco,ALL,1982,69
+Euro-Disco,ALL,1983,164
+Euro-Disco,ALL,1984,345
+Euro-Disco,ALL,1985,1075
+Euro-Disco,ALL,1986,1537
+Euro-Disco,ALL,1987,1364
+Euro-Disco,ALL,1988,1143
+Euro-Disco,ALL,1989,842
+Euro-Disco,ALL,1990,619
+Euro-Disco,US,1970,0
+Euro-Disco,US,1971,0
+Euro-Disco,US,1972,0
+Euro-Disco,US,1973,0
+Euro-Disco,US,1974,0
+Euro-Disco,US,1975,1
+Euro-Disco,US,1976,0
+Euro-Disco,US,1977,1
+Euro-Disco,US,1978,2
+Euro-Disco,US,1979,1
+Euro-Disco,US,1980,0
+Euro-Disco,US,1981,2
+Euro-Disco,US,1982,5
+Euro-Disco,US,1983,4
+Euro-Disco,US,1984,11
+Euro-Disco,US,1985,17
+Euro-Disco,US,1986,5
+Euro-Disco,US,1987,21
+Euro-Disco,US,1988,17
+Euro-Disco,US,1989,29
+Euro-Disco,US,1990,14
+Euro-Disco,UK,1970,0
+Euro-Disco,UK,1971,0
+Euro-Disco,UK,1972,0
+Euro-Disco,UK,1973,0
+Euro-Disco,UK,1974,0
+Euro-Disco,UK,1975,0
+Euro-Disco,UK,1976,0
+Euro-Disco,UK,1977,5
+Euro-Disco,UK,1978,4
+Euro-Disco,UK,1979,7
+Euro-Disco,UK,1980,1
+Euro-Disco,UK,1981,5
+Euro-Disco,UK,1982,2
+Euro-Disco,UK,1983,8
+Euro-Disco,UK,1984,14
+Euro-Disco,UK,1985,27
+Euro-Disco,UK,1986,35
+Euro-Disco,UK,1987,49
+Euro-Disco,UK,1988,55
+Euro-Disco,UK,1989,49
+Euro-Disco,UK,1990,32
+Euro-Disco,Italy,1970,0
+Euro-Disco,Italy,1971,0
+Euro-Disco,Italy,1972,0
+Euro-Disco,Italy,1973,0
+Euro-Disco,Italy,1974,0
+Euro-Disco,Italy,1975,0
+Euro-Disco,Italy,1976,1
+Euro-Disco,Italy,1977,1
+Euro-Disco,Italy,1978,2
+Euro-Disco,Italy,1979,3
+Euro-Disco,Italy,1980,2
+Euro-Disco,Italy,1981,0
+Euro-Disco,Italy,1982,2
+Euro-Disco,Italy,1983,11
+Euro-Disco,Italy,1984,21
+Euro-Disco,Italy,1985,42
+Euro-Disco,Italy,1986,31
+Euro-Disco,Italy,1987,20
+Euro-Disco,Italy,1988,21
+Euro-Disco,Italy,1989,29
+Euro-Disco,Italy,1990,27
+Euro-Disco,Germany,1970,0
+Euro-Disco,Germany,1971,0
+Euro-Disco,Germany,1972,0
+Euro-Disco,Germany,1973,0
+Euro-Disco,Germany,1974,1
+Euro-Disco,Germany,1975,2
+Euro-Disco,Germany,1976,5
+Euro-Disco,Germany,1977,20
+Euro-Disco,Germany,1978,21
+Euro-Disco,Germany,1979,22
+Euro-Disco,Germany,1980,24
+Euro-Disco,Germany,1981,23
+Euro-Disco,Germany,1982,11
+Euro-Disco,Germany,1983,20
+Euro-Disco,Germany,1984,61
+Euro-Disco,Germany,1985,258
+Euro-Disco,Germany,1986,340
+Euro-Disco,Germany,1987,288
+Euro-Disco,Germany,1988,231
+Euro-Disco,Germany,1989,211
+Euro-Disco,Germany,1990,130
+Euro-Disco,Spain,1970,0
+Euro-Disco,Spain,1971,0
+Euro-Disco,Spain,1972,0
+Euro-Disco,Spain,1973,0
+Euro-Disco,Spain,1974,0
+Euro-Disco,Spain,1975,0
+Euro-Disco,Spain,1976,1
+Euro-Disco,Spain,1977,2
+Euro-Disco,Spain,1978,0
+Euro-Disco,Spain,1979,0
+Euro-Disco,Spain,1980,1
+Euro-Disco,Spain,1981,1
+Euro-Disco,Spain,1982,7
+Euro-Disco,Spain,1983,18
+Euro-Disco,Spain,1984,42
+Euro-Disco,Spain,1985,109
+Euro-Disco,Spain,1986,198
+Euro-Disco,Spain,1987,155
+Euro-Disco,Spain,1988,136
+Euro-Disco,Spain,1989,36
+Euro-Disco,Spain,1990,32
+Boogie,ALL,1970,21
+Boogie,ALL,1971,42
+Boogie,ALL,1972,59
+Boogie,ALL,1973,51
+Boogie,ALL,1974,71
+Boogie,ALL,1975,93
+Boogie,ALL,1976,133
+Boogie,ALL,1977,159
+Boogie,ALL,1978,246
+Boogie,ALL,1979,418
+Boogie,ALL,1980,700
+Boogie,ALL,1981,1326
+Boogie,ALL,1982,2111
+Boogie,ALL,1983,2569
+Boogie,ALL,1984,2039
+Boogie,ALL,1985,1742
+Boogie,ALL,1986,1426
+Boogie,ALL,1987,1092
+Boogie,ALL,1988,1087
+Boogie,ALL,1989,688
+Boogie,ALL,1990,444
+Boogie,US,1970,5
+Boogie,US,1971,3
+Boogie,US,1972,21
+Boogie,US,1973,10
+Boogie,US,1974,19
+Boogie,US,1975,23
+Boogie,US,1976,47
+Boogie,US,1977,45
+Boogie,US,1978,82
+Boogie,US,1979,150
+Boogie,US,1980,346
+Boogie,US,1981,710
+Boogie,US,1982,1140
+Boogie,US,1983,1167
+Boogie,US,1984,913
+Boogie,US,1985,732
+Boogie,US,1986,588
+Boogie,US,1987,421
+Boogie,US,1988,353
+Boogie,US,1989,206
+Boogie,US,1990,102
+Boogie,UK,1970,2
+Boogie,UK,1971,6
+Boogie,UK,1972,0
+Boogie,UK,1973,3
+Boogie,UK,1974,5
+Boogie,UK,1975,7
+Boogie,UK,1976,6
+Boogie,UK,1977,5
+Boogie,UK,1978,10
+Boogie,UK,1979,20
+Boogie,UK,1980,43
+Boogie,UK,1981,79
+Boogie,UK,1982,165
+Boogie,UK,1983,307
+Boogie,UK,1984,218
+Boogie,UK,1985,165
+Boogie,UK,1986,129
+Boogie,UK,1987,51
+Boogie,UK,1988,50
+Boogie,UK,1989,23
+Boogie,UK,1990,27
+Boogie,Italy,1970,0
+Boogie,Italy,1971,6
+Boogie,Italy,1972,1
+Boogie,Italy,1973,4
+Boogie,Italy,1974,1
+Boogie,Italy,1975,2
+Boogie,Italy,1976,7
+Boogie,Italy,1977,5
+Boogie,Italy,1978,5
+Boogie,Italy,1979,2
+Boogie,Italy,1980,15
+Boogie,Italy,1981,20
+Boogie,Italy,1982,26
+Boogie,Italy,1983,27
+Boogie,Italy,1984,23
+Boogie,Italy,1985,9
+Boogie,Italy,1986,5
+Boogie,Italy,1987,5
+Boogie,Italy,1988,0
+Boogie,Italy,1989,2
+Boogie,Italy,1990,6
+Boogie,Germany,1970,0
+Boogie,Germany,1971,3
+Boogie,Germany,1972,2
+Boogie,Germany,1973,2
+Boogie,Germany,1974,3
+Boogie,Germany,1975,9
+Boogie,Germany,1976,8
+Boogie,Germany,1977,4
+Boogie,Germany,1978,7
+Boogie,Germany,1979,14
+Boogie,Germany,1980,19
+Boogie,Germany,1981,35
+Boogie,Germany,1982,44
+Boogie,Germany,1983,70
+Boogie,Germany,1984,55
+Boogie,Germany,1985,65
+Boogie,Germany,1986,40
+Boogie,Germany,1987,20
+Boogie,Germany,1988,18
+Boogie,Germany,1989,17
+Boogie,Germany,1990,16
+Boogie,Spain,1970,0
+Boogie,Spain,1971,0
+Boogie,Spain,1972,0
+Boogie,Spain,1973,1
+Boogie,Spain,1974,1
+Boogie,Spain,1975,3
+Boogie,Spain,1976,0
+Boogie,Spain,1977,2
+Boogie,Spain,1978,3
+Boogie,Spain,1979,5
+Boogie,Spain,1980,4
+Boogie,Spain,1981,3
+Boogie,Spain,1982,13
+Boogie,Spain,1983,18
+Boogie,Spain,1984,16
+Boogie,Spain,1985,5
+Boogie,Spain,1986,4
+Boogie,Spain,1987,5
+Boogie,Spain,1988,2
+Boogie,Spain,1989,0
+Boogie,Spain,1990,0
+Dance-Pop,ALL,1970,1
+Dance-Pop,ALL,1971,5
+Dance-Pop,ALL,1972,1
+Dance-Pop,ALL,1973,5
+Dance-Pop,ALL,1974,2
+Dance-Pop,ALL,1975,4
+Dance-Pop,ALL,1976,8
+Dance-Pop,ALL,1977,24
+Dance-Pop,ALL,1978,26
+Dance-Pop,ALL,1979,31
+Dance-Pop,ALL,1980,28
+Dance-Pop,ALL,1981,64
+Dance-Pop,ALL,1982,123
+Dance-Pop,ALL,1983,369
+Dance-Pop,ALL,1984,425
+Dance-Pop,ALL,1985,529
+Dance-Pop,ALL,1986,559
+Dance-Pop,ALL,1987,1019
+Dance-Pop,ALL,1988,1084
+Dance-Pop,ALL,1989,1162
+Dance-Pop,ALL,1990,1203
+Dance-Pop,US,1970,0
+Dance-Pop,US,1971,0
+Dance-Pop,US,1972,0
+Dance-Pop,US,1973,2
+Dance-Pop,US,1974,0
+Dance-Pop,US,1975,0
+Dance-Pop,US,1976,0
+Dance-Pop,US,1977,0
+Dance-Pop,US,1978,2
+Dance-Pop,US,1979,1
+Dance-Pop,US,1980,6
+Dance-Pop,US,1981,8
+Dance-Pop,US,1982,20
+Dance-Pop,US,1983,84
+Dance-Pop,US,1984,97
+Dance-Pop,US,1985,87
+Dance-Pop,US,1986,102
+Dance-Pop,US,1987,200
+Dance-Pop,US,1988,221
+Dance-Pop,US,1989,240
+Dance-Pop,US,1990,193
+Dance-Pop,UK,1970,0
+Dance-Pop,UK,1971,0
+Dance-Pop,UK,1972,0
+Dance-Pop,UK,1973,0
+Dance-Pop,UK,1974,0
+Dance-Pop,UK,1975,0
+Dance-Pop,UK,1976,2
+Dance-Pop,UK,1977,2
+Dance-Pop,UK,1978,1
+Dance-Pop,UK,1979,0
+Dance-Pop,UK,1980,3
+Dance-Pop,UK,1981,9
+Dance-Pop,UK,1982,25
+Dance-Pop,UK,1983,45
+Dance-Pop,UK,1984,49
+Dance-Pop,UK,1985,80
+Dance-Pop,UK,1986,88
+Dance-Pop,UK,1987,121
+Dance-Pop,UK,1988,133
+Dance-Pop,UK,1989,127
+Dance-Pop,UK,1990,116
+Dance-Pop,Italy,1970,0
+Dance-Pop,Italy,1971,0
+Dance-Pop,Italy,1972,1
+Dance-Pop,Italy,1973,0
+Dance-Pop,Italy,1974,0
+Dance-Pop,Italy,1975,0
+Dance-Pop,Italy,1976,0
+Dance-Pop,Italy,1977,0
+Dance-Pop,Italy,1978,1
+Dance-Pop,Italy,1979,1
+Dance-Pop,Italy,1980,3
+Dance-Pop,Italy,1981,4
+Dance-Pop,Italy,1982,8
+Dance-Pop,Italy,1983,15
+Dance-Pop,Italy,1984,11
+Dance-Pop,Italy,1985,20
+Dance-Pop,Italy,1986,13
+Dance-Pop,Italy,1987,35
+Dance-Pop,Italy,1988,25
+Dance-Pop,Italy,1989,12
+Dance-Pop,Italy,1990,19
+Dance-Pop,Germany,1970,0
+Dance-Pop,Germany,1971,0
+Dance-Pop,Germany,1972,0
+Dance-Pop,Germany,1973,0
+Dance-Pop,Germany,1974,0
+Dance-Pop,Germany,1975,0
+Dance-Pop,Germany,1976,1
+Dance-Pop,Germany,1977,1
+Dance-Pop,Germany,1978,1
+Dance-Pop,Germany,1979,4
+Dance-Pop,Germany,1980,1
+Dance-Pop,Germany,1981,6
+Dance-Pop,Germany,1982,1
+Dance-Pop,Germany,1983,8
+Dance-Pop,Germany,1984,13
+Dance-Pop,Germany,1985,18
+Dance-Pop,Germany,1986,28
+Dance-Pop,Germany,1987,23
+Dance-Pop,Germany,1988,35
+Dance-Pop,Germany,1989,33
+Dance-Pop,Germany,1990,32
+Dance-Pop,Spain,1970,0
+Dance-Pop,Spain,1971,0
+Dance-Pop,Spain,1972,0
+Dance-Pop,Spain,1973,0
+Dance-Pop,Spain,1974,0
+Dance-Pop,Spain,1975,0
+Dance-Pop,Spain,1976,1
+Dance-Pop,Spain,1977,4
+Dance-Pop,Spain,1978,0
+Dance-Pop,Spain,1979,1
+Dance-Pop,Spain,1980,2
+Dance-Pop,Spain,1981,4
+Dance-Pop,Spain,1982,4
+Dance-Pop,Spain,1983,5
+Dance-Pop,Spain,1984,4
+Dance-Pop,Spain,1985,11
+Dance-Pop,Spain,1986,16
+Dance-Pop,Spain,1987,28
+Dance-Pop,Spain,1988,21
+Dance-Pop,Spain,1989,10
+Dance-Pop,Spain,1990,13
+House,ALL,1970,0
+House,ALL,1971,0
+House,ALL,1972,0
+House,ALL,1973,0
+House,ALL,1974,0
+House,ALL,1975,0
+House,ALL,1976,0
+House,ALL,1977,0
+House,ALL,1978,1
+House,ALL,1979,0
+House,ALL,1980,0
+House,ALL,1981,0
+House,ALL,1982,42
+House,ALL,1983,79
+House,ALL,1984,103
+House,ALL,1985,394
+House,ALL,1986,1474
+House,ALL,1987,3657
+House,ALL,1988,8773
+House,ALL,1989,14538
+House,ALL,1990,19675
+House,US,1970,0
+House,US,1971,0
+House,US,1972,0
+House,US,1973,0
+House,US,1974,0
+House,US,1975,0
+House,US,1976,0
+House,US,1977,0
+House,US,1978,0
+House,US,1979,0
+House,US,1980,0
+House,US,1981,0
+House,US,1982,28
+House,US,1983,38
+House,US,1984,64
+House,US,1985,210
+House,US,1986,649
+House,US,1987,1321
+House,US,1988,2141
+House,US,1989,3098
+House,US,1990,3736
+House,UK,1970,0
+House,UK,1971,0
+House,UK,1972,0
+House,UK,1973,0
+House,UK,1974,0
+House,UK,1975,0
+House,UK,1976,0
+House,UK,1977,0
+House,UK,1978,0
+House,UK,1979,0
+House,UK,1980,0
+House,UK,1981,0
+House,UK,1982,6
+House,UK,1983,7
+House,UK,1984,10
+House,UK,1985,56
+House,UK,1986,321
+House,UK,1987,934
+House,UK,1988,2546
+House,UK,1989,3766
+House,UK,1990,4831
+House,Italy,1970,0
+House,Italy,1971,0
+House,Italy,1972,0
+House,Italy,1973,0
+House,Italy,1974,0
+House,Italy,1975,0
+House,Italy,1976,0
+House,Italy,1977,0
+House,Italy,1978,0
+House,Italy,1979,0
+House,Italy,1980,0
+House,Italy,1981,0
+House,Italy,1982,2
+House,Italy,1983,2
+House,Italy,1984,1
+House,Italy,1985,6
+House,Italy,1986,28
+House,Italy,1987,104
+House,Italy,1988,378
+House,Italy,1989,832
+House,Italy,1990,1485
+House,Germany,1970,0
+House,Germany,1971,0
+House,Germany,1972,0
+House,Germany,1973,0
+House,Germany,1974,0
+House,Germany,1975,0
+House,Germany,1976,0
+House,Germany,1977,0
+House,Germany,1978,0
+House,Germany,1979,0
+House,Germany,1980,0
+House,Germany,1981,0
+House,Germany,1982,1
+House,Germany,1983,4
+House,Germany,1984,1
+House,Germany,1985,11
+House,Germany,1986,75
+House,Germany,1987,335
+House,Germany,1988,817
+House,Germany,1989,1459
+House,Germany,1990,2133
+House,Spain,1970,0
+House,Spain,1971,0
+House,Spain,1972,0
+House,Spain,1973,0
+House,Spain,1974,0
+House,Spain,1975,0
+House,Spain,1976,0
+House,Spain,1977,0
+House,Spain,1978,0
+House,Spain,1979,0
+House,Spain,1980,0
+House,Spain,1981,0
+House,Spain,1982,1
+House,Spain,1983,2
+House,Spain,1984,2
+House,Spain,1985,10
+House,Spain,1986,55
+House,Spain,1987,129
+House,Spain,1988,315
+House,Spain,1989,536
+House,Spain,1990,668
+Techno,ALL,1970,0
+Techno,ALL,1971,0
+Techno,ALL,1972,0
+Techno,ALL,1973,0
+Techno,ALL,1974,1
+Techno,ALL,1975,1
+Techno,ALL,1976,0
+Techno,ALL,1977,0
+Techno,ALL,1978,1
+Techno,ALL,1979,1
+Techno,ALL,1980,1
+Techno,ALL,1981,14
+Techno,ALL,1982,14
+Techno,ALL,1983,18
+Techno,ALL,1984,33
+Techno,ALL,1985,41
+Techno,ALL,1986,70
+Techno,ALL,1987,129
+Techno,ALL,1988,414
+Techno,ALL,1989,1038
+Techno,ALL,1990,2917
+Techno,US,1970,0
+Techno,US,1971,0
+Techno,US,1972,0
+Techno,US,1973,0
+Techno,US,1974,1
+Techno,US,1975,1
+Techno,US,1976,0
+Techno,US,1977,0
+Techno,US,1978,0
+Techno,US,1979,0
+Techno,US,1980,0
+Techno,US,1981,4
+Techno,US,1982,3
+Techno,US,1983,1
+Techno,US,1984,2
+Techno,US,1985,7
+Techno,US,1986,25
+Techno,US,1987,75
+Techno,US,1988,113
+Techno,US,1989,207
+Techno,US,1990,378
+Techno,UK,1970,0
+Techno,UK,1971,0
+Techno,UK,1972,0
+Techno,UK,1973,0
+Techno,UK,1974,0
+Techno,UK,1975,0
+Techno,UK,1976,0
+Techno,UK,1977,0
+Techno,UK,1978,0
+Techno,UK,1979,0
+Techno,UK,1980,0
+Techno,UK,1981,2
+Techno,UK,1982,0
+Techno,UK,1983,0
+Techno,UK,1984,1
+Techno,UK,1985,3
+Techno,UK,1986,5
+Techno,UK,1987,19
+Techno,UK,1988,143
+Techno,UK,1989,327
+Techno,UK,1990,1069
+Techno,Italy,1970,0
+Techno,Italy,1971,0
+Techno,Italy,1972,0
+Techno,Italy,1973,0
+Techno,Italy,1974,0
+Techno,Italy,1975,0
+Techno,Italy,1976,0
+Techno,Italy,1977,0
+Techno,Italy,1978,0
+Techno,Italy,1979,0
+Techno,Italy,1980,0
+Techno,Italy,1981,0
+Techno,Italy,1982,0
+Techno,Italy,1983,0
+Techno,Italy,1984,0
+Techno,Italy,1985,1
+Techno,Italy,1986,1
+Techno,Italy,1987,0
+Techno,Italy,1988,8
+Techno,Italy,1989,35
+Techno,Italy,1990,195
+Techno,Germany,1970,0
+Techno,Germany,1971,0
+Techno,Germany,1972,0
+Techno,Germany,1973,0
+Techno,Germany,1974,0
+Techno,Germany,1975,0
+Techno,Germany,1976,0
+Techno,Germany,1977,0
+Techno,Germany,1978,0
+Techno,Germany,1979,0
+Techno,Germany,1980,0
+Techno,Germany,1981,1
+Techno,Germany,1982,0
+Techno,Germany,1983,1
+Techno,Germany,1984,0
+Techno,Germany,1985,2
+Techno,Germany,1986,8
+Techno,Germany,1987,5
+Techno,Germany,1988,46
+Techno,Germany,1989,140
+Techno,Germany,1990,362
+Techno,Spain,1970,0
+Techno,Spain,1971,0
+Techno,Spain,1972,0
+Techno,Spain,1973,0
+Techno,Spain,1974,0
+Techno,Spain,1975,0
+Techno,Spain,1976,0
+Techno,Spain,1977,0
+Techno,Spain,1978,0
+Techno,Spain,1979,0
+Techno,Spain,1980,0
+Techno,Spain,1981,2
+Techno,Spain,1982,8
+Techno,Spain,1983,3
+Techno,Spain,1984,13
+Techno,Spain,1985,11
+Techno,Spain,1986,9
+Techno,Spain,1987,4
+Techno,Spain,1988,19
+Techno,Spain,1989,26
+Techno,Spain,1990,92
+New Wave,ALL,1970,0
+New Wave,ALL,1971,0
+New Wave,ALL,1972,0
+New Wave,ALL,1973,1
+New Wave,ALL,1974,1
+New Wave,ALL,1975,34
+New Wave,ALL,1976,160
+New Wave,ALL,1977,1021
+New Wave,ALL,1978,3227
+New Wave,ALL,1979,6420
+New Wave,ALL,1980,10167
+New Wave,ALL,1981,11036
+New Wave,ALL,1982,12404
+New Wave,ALL,1983,11331
+New Wave,ALL,1984,9851
+New Wave,ALL,1985,8403
+New Wave,ALL,1986,7267
+New Wave,ALL,1987,6234
+New Wave,ALL,1988,5141
+New Wave,ALL,1989,4208
+New Wave,ALL,1990,3437
+New Wave,US,1970,0
+New Wave,US,1971,0
+New Wave,US,1972,0
+New Wave,US,1973,1
+New Wave,US,1974,1
+New Wave,US,1975,16
+New Wave,US,1976,64
+New Wave,US,1977,231
+New Wave,US,1978,634
+New Wave,US,1979,1290
+New Wave,US,1980,1912
+New Wave,US,1981,1795
+New Wave,US,1982,2301
+New Wave,US,1983,2361
+New Wave,US,1984,1841
+New Wave,US,1985,1424
+New Wave,US,1986,1331
+New Wave,US,1987,1149
+New Wave,US,1988,842
+New Wave,US,1989,772
+New Wave,US,1990,456
+New Wave,UK,1970,0
+New Wave,UK,1971,0
+New Wave,UK,1972,0
+New Wave,UK,1973,0
+New Wave,UK,1974,0
+New Wave,UK,1975,4
+New Wave,UK,1976,24
+New Wave,UK,1977,290
+New Wave,UK,1978,974
+New Wave,UK,1979,1851
+New Wave,UK,1980,2414
+New Wave,UK,1981,2569
+New Wave,UK,1982,2362
+New Wave,UK,1983,1976
+New Wave,UK,1984,1707
+New Wave,UK,1985,1412
+New Wave,UK,1986,1234
+New Wave,UK,1987,928
+New Wave,UK,1988,827
+New Wave,UK,1989,647
+New Wave,UK,1990,551
+New Wave,Italy,1970,0
+New Wave,Italy,1971,0
+New Wave,Italy,1972,0
+New Wave,Italy,1973,0
+New Wave,Italy,1974,0
+New Wave,Italy,1975,0
+New Wave,Italy,1976,4
+New Wave,Italy,1977,37
+New Wave,Italy,1978,116
+New Wave,Italy,1979,155
+New Wave,Italy,1980,375
+New Wave,Italy,1981,413
+New Wave,Italy,1982,352
+New Wave,Italy,1983,301
+New Wave,Italy,1984,308
+New Wave,Italy,1985,308
+New Wave,Italy,1986,287
+New Wave,Italy,1987,256
+New Wave,Italy,1988,215
+New Wave,Italy,1989,156
+New Wave,Italy,1990,179
+New Wave,Germany,1970,0
+New Wave,Germany,1971,0
+New Wave,Germany,1972,0
+New Wave,Germany,1973,0
+New Wave,Germany,1974,0
+New Wave,Germany,1975,0
+New Wave,Germany,1976,4
+New Wave,Germany,1977,69
+New Wave,Germany,1978,207
+New Wave,Germany,1979,405
+New Wave,Germany,1980,775
+New Wave,Germany,1981,1043
+New Wave,Germany,1982,1511
+New Wave,Germany,1983,1095
+New Wave,Germany,1984,717
+New Wave,Germany,1985,609
+New Wave,Germany,1986,503
+New Wave,Germany,1987,436
+New Wave,Germany,1988,363
+New Wave,Germany,1989,276
+New Wave,Germany,1990,294
+New Wave,Spain,1970,0
+New Wave,Spain,1971,0
+New Wave,Spain,1972,0
+New Wave,Spain,1973,0
+New Wave,Spain,1974,0
+New Wave,Spain,1975,0
+New Wave,Spain,1976,4
+New Wave,Spain,1977,23
+New Wave,Spain,1978,102
+New Wave,Spain,1979,169
+New Wave,Spain,1980,348
+New Wave,Spain,1981,318
+New Wave,Spain,1982,442
+New Wave,Spain,1983,426
+New Wave,Spain,1984,416
+New Wave,Spain,1985,299
+New Wave,Spain,1986,298
+New Wave,Spain,1987,230
+New Wave,Spain,1988,139
+New Wave,Spain,1989,129
+New Wave,Spain,1990,96
+Punk,ALL,1970,32
+Punk,ALL,1971,27
+Punk,ALL,1972,27
+Punk,ALL,1973,47
+Punk,ALL,1974,20
+Punk,ALL,1975,75
+Punk,ALL,1976,295
+Punk,ALL,1977,2428
+Punk,ALL,1978,3673
+Punk,ALL,1979,4342
+Punk,ALL,1980,5442
+Punk,ALL,1981,5113
+Punk,ALL,1982,5121
+Punk,ALL,1983,4500
+Punk,ALL,1984,4420
+Punk,ALL,1985,4842
+Punk,ALL,1986,5357
+Punk,ALL,1987,5529
+Punk,ALL,1988,5949
+Punk,ALL,1989,6680
+Punk,ALL,1990,7404
+Punk,US,1970,16
+Punk,US,1971,14
+Punk,US,1972,11
+Punk,US,1973,21
+Punk,US,1974,10
+Punk,US,1975,35
+Punk,US,1976,109
+Punk,US,1977,420
+Punk,US,1978,657
+Punk,US,1979,858
+Punk,US,1980,1168
+Punk,US,1981,1188
+Punk,US,1982,1195
+Punk,US,1983,1233
+Punk,US,1984,1134
+Punk,US,1985,1352
+Punk,US,1986,1547
+Punk,US,1987,1660
+Punk,US,1988,1899
+Punk,US,1989,2109
+Punk,US,1990,2444
+Punk,UK,1970,1
+Punk,UK,1971,3
+Punk,UK,1972,1
+Punk,UK,1973,3
+Punk,UK,1974,1
+Punk,UK,1975,7
+Punk,UK,1976,63
+Punk,UK,1977,842
+Punk,UK,1978,1263
+Punk,UK,1979,1566
+Punk,UK,1980,1512
+Punk,UK,1981,1301
+Punk,UK,1982,1379
+Punk,UK,1983,1073
+Punk,UK,1984,978
+Punk,UK,1985,1023
+Punk,UK,1986,965
+Punk,UK,1987,904
+Punk,UK,1988,809
+Punk,UK,1989,912
+Punk,UK,1990,885
+Punk,Italy,1970,3
+Punk,Italy,1971,2
+Punk,Italy,1972,0
+Punk,Italy,1973,1
+Punk,Italy,1974,0
+Punk,Italy,1975,1
+Punk,Italy,1976,3
+Punk,Italy,1977,99
+Punk,Italy,1978,131
+Punk,Italy,1979,66
+Punk,Italy,1980,147
+Punk,Italy,1981,136
+Punk,Italy,1982,130
+Punk,Italy,1983,114
+Punk,Italy,1984,118
+Punk,Italy,1985,131
+Punk,Italy,1986,107
+Punk,Italy,1987,111
+Punk,Italy,1988,136
+Punk,Italy,1989,130
+Punk,Italy,1990,153
+Punk,Germany,1970,5
+Punk,Germany,1971,2
+Punk,Germany,1972,1
+Punk,Germany,1973,2
+Punk,Germany,1974,0
+Punk,Germany,1975,2
+Punk,Germany,1976,21
+Punk,Germany,1977,142
+Punk,Germany,1978,198
+Punk,Germany,1979,232
+Punk,Germany,1980,411
+Punk,Germany,1981,554
+Punk,Germany,1982,536
+Punk,Germany,1983,387
+Punk,Germany,1984,430
+Punk,Germany,1985,443
+Punk,Germany,1986,477
+Punk,Germany,1987,550
+Punk,Germany,1988,635
+Punk,Germany,1989,834
+Punk,Germany,1990,997
+Punk,Spain,1970,0
+Punk,Spain,1971,0
+Punk,Spain,1972,0
+Punk,Spain,1973,2
+Punk,Spain,1974,1
+Punk,Spain,1975,3
+Punk,Spain,1976,8
+Punk,Spain,1977,56
+Punk,Spain,1978,117
+Punk,Spain,1979,67
+Punk,Spain,1980,129
+Punk,Spain,1981,90
+Punk,Spain,1982,130
+Punk,Spain,1983,178
+Punk,Spain,1984,176
+Punk,Spain,1985,169
+Punk,Spain,1986,240
+Punk,Spain,1987,228
+Punk,Spain,1988,191
+Punk,Spain,1989,169
+Punk,Spain,1990,239
+Heavy Metal,ALL,1970,139
+Heavy Metal,ALL,1971,242
+Heavy Metal,ALL,1972,218
+Heavy Metal,ALL,1973,200
+Heavy Metal,ALL,1974,190
+Heavy Metal,ALL,1975,228
+Heavy Metal,ALL,1976,460
+Heavy Metal,ALL,1977,449
+Heavy Metal,ALL,1978,568
+Heavy Metal,ALL,1979,536
+Heavy Metal,ALL,1980,1653
+Heavy Metal,ALL,1981,2081
+Heavy Metal,ALL,1982,2291
+Heavy Metal,ALL,1983,3418
+Heavy Metal,ALL,1984,4587
+Heavy Metal,ALL,1985,4485
+Heavy Metal,ALL,1986,4848
+Heavy Metal,ALL,1987,4730
+Heavy Metal,ALL,1988,5535
+Heavy Metal,ALL,1989,5603
+Heavy Metal,ALL,1990,5435
+Heavy Metal,US,1970,20
+Heavy Metal,US,1971,102
+Heavy Metal,US,1972,45
+Heavy Metal,US,1973,36
+Heavy Metal,US,1974,83
+Heavy Metal,US,1975,53
+Heavy Metal,US,1976,116
+Heavy Metal,US,1977,123
+Heavy Metal,US,1978,145
+Heavy Metal,US,1979,133
+Heavy Metal,US,1980,251
+Heavy Metal,US,1981,350
+Heavy Metal,US,1982,406
+Heavy Metal,US,1983,843
+Heavy Metal,US,1984,1056
+Heavy Metal,US,1985,1158
+Heavy Metal,US,1986,1358
+Heavy Metal,US,1987,1501
+Heavy Metal,US,1988,1734
+Heavy Metal,US,1989,1743
+Heavy Metal,US,1990,1444
+Heavy Metal,UK,1970,21
+Heavy Metal,UK,1971,17
+Heavy Metal,UK,1972,20
+Heavy Metal,UK,1973,29
+Heavy Metal,UK,1974,19
+Heavy Metal,UK,1975,29
+Heavy Metal,UK,1976,94
+Heavy Metal,UK,1977,61
+Heavy Metal,UK,1978,90
+Heavy Metal,UK,1979,130
+Heavy Metal,UK,1980,503
+Heavy Metal,UK,1981,448
+Heavy Metal,UK,1982,495
+Heavy Metal,UK,1983,580
+Heavy Metal,UK,1984,625
+Heavy Metal,UK,1985,462
+Heavy Metal,UK,1986,544
+Heavy Metal,UK,1987,428
+Heavy Metal,UK,1988,480
+Heavy Metal,UK,1989,547
+Heavy Metal,UK,1990,488
+Heavy Metal,Italy,1970,16
+Heavy Metal,Italy,1971,5
+Heavy Metal,Italy,1972,7
+Heavy Metal,Italy,1973,10
+Heavy Metal,Italy,1974,0
+Heavy Metal,Italy,1975,4
+Heavy Metal,Italy,1976,11
+Heavy Metal,Italy,1977,8
+Heavy Metal,Italy,1978,17
+Heavy Metal,Italy,1979,9
+Heavy Metal,Italy,1980,22
+Heavy Metal,Italy,1981,96
+Heavy Metal,Italy,1982,60
+Heavy Metal,Italy,1983,72
+Heavy Metal,Italy,1984,102
+Heavy Metal,Italy,1985,107
+Heavy Metal,Italy,1986,118
+Heavy Metal,Italy,1987,115
+Heavy Metal,Italy,1988,164
+Heavy Metal,Italy,1989,121
+Heavy Metal,Italy,1990,160
+Heavy Metal,Germany,1970,9
+Heavy Metal,Germany,1971,7
+Heavy Metal,Germany,1972,18
+Heavy Metal,Germany,1973,12
+Heavy Metal,Germany,1974,5
+Heavy Metal,Germany,1975,12
+Heavy Metal,Germany,1976,18
+Heavy Metal,Germany,1977,29
+Heavy Metal,Germany,1978,27
+Heavy Metal,Germany,1979,21
+Heavy Metal,Germany,1980,117
+Heavy Metal,Germany,1981,145
+Heavy Metal,Germany,1982,116
+Heavy Metal,Germany,1983,133
+Heavy Metal,Germany,1984,252
+Heavy Metal,Germany,1985,338
+Heavy Metal,Germany,1986,311
+Heavy Metal,Germany,1987,349
+Heavy Metal,Germany,1988,478
+Heavy Metal,Germany,1989,488
+Heavy Metal,Germany,1990,525
+Heavy Metal,Spain,1970,3
+Heavy Metal,Spain,1971,5
+Heavy Metal,Spain,1972,3
+Heavy Metal,Spain,1973,3
+Heavy Metal,Spain,1974,2
+Heavy Metal,Spain,1975,4
+Heavy Metal,Spain,1976,17
+Heavy Metal,Spain,1977,17
+Heavy Metal,Spain,1978,14
+Heavy Metal,Spain,1979,15
+Heavy Metal,Spain,1980,66
+Heavy Metal,Spain,1981,121
+Heavy Metal,Spain,1982,147
+Heavy Metal,Spain,1983,165
+Heavy Metal,Spain,1984,271
+Heavy Metal,Spain,1985,200
+Heavy Metal,Spain,1986,245
+Heavy Metal,Spain,1987,240
+Heavy Metal,Spain,1988,215
+Heavy Metal,Spain,1989,138
+Heavy Metal,Spain,1990,141
+Hip Hop,ALL,1970,0
+Hip Hop,ALL,1971,2
+Hip Hop,ALL,1972,0
+Hip Hop,ALL,1973,0
+Hip Hop,ALL,1974,0
+Hip Hop,ALL,1975,2
+Hip Hop,ALL,1976,1
+Hip Hop,ALL,1977,0
+Hip Hop,ALL,1978,1
+Hip Hop,ALL,1979,234
+Hip Hop,ALL,1980,784
+Hip Hop,ALL,1981,691
+Hip Hop,ALL,1982,1030
+Hip Hop,ALL,1983,1889
+Hip Hop,ALL,1984,3060
+Hip Hop,ALL,1985,2837
+Hip Hop,ALL,1986,3500
+Hip Hop,ALL,1987,4583
+Hip Hop,ALL,1988,7627
+Hip Hop,ALL,1989,9975
+Hip Hop,ALL,1990,13509
+Hip Hop,US,1970,0
+Hip Hop,US,1971,1
+Hip Hop,US,1972,0
+Hip Hop,US,1973,0
+Hip Hop,US,1974,0
+Hip Hop,US,1975,0
+Hip Hop,US,1976,0
+Hip Hop,US,1977,0
+Hip Hop,US,1978,0
+Hip Hop,US,1979,134
+Hip Hop,US,1980,377
+Hip Hop,US,1981,412
+Hip Hop,US,1982,562
+Hip Hop,US,1983,816
+Hip Hop,US,1984,1340
+Hip Hop,US,1985,1802
+Hip Hop,US,1986,2029
+Hip Hop,US,1987,2561
+Hip Hop,US,1988,3908
+Hip Hop,US,1989,5075
+Hip Hop,US,1990,5857
+Hip Hop,UK,1970,0
+Hip Hop,UK,1971,0
+Hip Hop,UK,1972,0
+Hip Hop,UK,1973,0
+Hip Hop,UK,1974,0
+Hip Hop,UK,1975,0
+Hip Hop,UK,1976,0
+Hip Hop,UK,1977,0
+Hip Hop,UK,1978,0
+Hip Hop,UK,1979,25
+Hip Hop,UK,1980,29
+Hip Hop,UK,1981,52
+Hip Hop,UK,1982,109
+Hip Hop,UK,1983,252
+Hip Hop,UK,1984,313
+Hip Hop,UK,1985,343
+Hip Hop,UK,1986,542
+Hip Hop,UK,1987,722
+Hip Hop,UK,1988,1311
+Hip Hop,UK,1989,1453
+Hip Hop,UK,1990,2099
+Hip Hop,Italy,1970,0
+Hip Hop,Italy,1971,0
+Hip Hop,Italy,1972,0
+Hip Hop,Italy,1973,0
+Hip Hop,Italy,1974,0
+Hip Hop,Italy,1975,0
+Hip Hop,Italy,1976,0
+Hip Hop,Italy,1977,0
+Hip Hop,Italy,1978,0
+Hip Hop,Italy,1979,2
+Hip Hop,Italy,1980,25
+Hip Hop,Italy,1981,8
+Hip Hop,Italy,1982,21
+Hip Hop,Italy,1983,52
+Hip Hop,Italy,1984,57
+Hip Hop,Italy,1985,23
+Hip Hop,Italy,1986,25
+Hip Hop,Italy,1987,46
+Hip Hop,Italy,1988,117
+Hip Hop,Italy,1989,108
+Hip Hop,Italy,1990,157
+Hip Hop,Germany,1970,0
+Hip Hop,Germany,1971,0
+Hip Hop,Germany,1972,0
+Hip Hop,Germany,1973,0
+Hip Hop,Germany,1974,0
+Hip Hop,Germany,1975,0
+Hip Hop,Germany,1976,0
+Hip Hop,Germany,1977,0
+Hip Hop,Germany,1978,0
+Hip Hop,Germany,1979,11
+Hip Hop,Germany,1980,44
+Hip Hop,Germany,1981,41
+Hip Hop,Germany,1982,40
+Hip Hop,Germany,1983,188
+Hip Hop,Germany,1984,215
+Hip Hop,Germany,1985,72
+Hip Hop,Germany,1986,127
+Hip Hop,Germany,1987,168
+Hip Hop,Germany,1988,448
+Hip Hop,Germany,1989,610
+Hip Hop,Germany,1990,963
+Hip Hop,Spain,1970,0
+Hip Hop,Spain,1971,0
+Hip Hop,Spain,1972,0
+Hip Hop,Spain,1973,0
+Hip Hop,Spain,1974,0
+Hip Hop,Spain,1975,0
+Hip Hop,Spain,1976,0
+Hip Hop,Spain,1977,0
+Hip Hop,Spain,1978,0
+Hip Hop,Spain,1979,0
+Hip Hop,Spain,1980,26
+Hip Hop,Spain,1981,12
+Hip Hop,Spain,1982,25
+Hip Hop,Spain,1983,40
+Hip Hop,Spain,1984,79
+Hip Hop,Spain,1985,46
+Hip Hop,Spain,1986,41
+Hip Hop,Spain,1987,88
+Hip Hop,Spain,1988,116
+Hip Hop,Spain,1989,168
+Hip Hop,Spain,1990,298
