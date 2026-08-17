@@ -1,0 +1,422 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Did Disco Die? — Discogs Data Study</title>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.4/chart.umd.min.js"></script>
+<style>
+  :root{
+    --ink:#f3ecd9;
+    --ink-dim:#b8ad91;
+    --bg:#12130f;
+    --bg-panel:#1a1b15;
+    --line:#33342a;
+    --gold:#d4a72c;
+    --pink:#e0507a;
+    --teal:#4fa89b;
+    --violet:#8b7ec8;
+    --mono: "Courier New", ui-monospace, SFMono-Regular, monospace;
+  }
+  *{box-sizing:border-box;}
+  body{
+    margin:0;
+    background:
+      radial-gradient(circle at 12% 8%, rgba(212,167,44,0.08), transparent 45%),
+      radial-gradient(circle at 88% 92%, rgba(224,80,122,0.07), transparent 40%),
+      var(--bg);
+    color:var(--ink);
+    font-family: Georgia, "Iowan Old Style", serif;
+    min-height:100vh;
+  }
+  header{
+    padding:2.4rem 2rem 1.6rem;
+    border-bottom:1px solid var(--line);
+    max-width:1100px;
+    margin:0 auto;
+  }
+  .eyebrow{
+    font-family:var(--mono);
+    letter-spacing:.18em;
+    text-transform:uppercase;
+    font-size:.72rem;
+    color:var(--gold);
+  }
+  h1{
+    font-size:2.4rem;
+    margin:.3rem 0 .5rem;
+    font-weight:400;
+    letter-spacing:-.01em;
+  }
+  h1 em{ color:var(--pink); font-style:normal; }
+  .sub{ color:var(--ink-dim); max-width:60ch; line-height:1.5; font-size:.98rem; }
+
+  main{ max-width:1100px; margin:0 auto; padding:1.6rem 2rem 4rem; }
+
+  .loaders{
+    display:grid;
+    grid-template-columns:repeat(auto-fit, minmax(220px,1fr));
+    gap:1rem;
+    margin:1.6rem 0 2.4rem;
+  }
+  .loader{
+    background:var(--bg-panel);
+    border:1px solid var(--line);
+    border-radius:2px;
+    padding:1rem 1.1rem;
+  }
+  .loader label{
+    display:block;
+    font-family:var(--mono);
+    font-size:.7rem;
+    letter-spacing:.1em;
+    text-transform:uppercase;
+    color:var(--ink-dim);
+    margin-bottom:.5rem;
+  }
+  .loader input[type=file]{
+    font-family:var(--mono);
+    font-size:.78rem;
+    color:var(--ink);
+    width:100%;
+  }
+  .status{ font-family:var(--mono); font-size:.72rem; color:var(--teal); margin-top:.4rem; min-height:1em; }
+
+  section.panel{
+    background:var(--bg-panel);
+    border:1px solid var(--line);
+    border-radius:2px;
+    padding:1.4rem 1.4rem 1.8rem;
+    margin-bottom:1.6rem;
+  }
+  section.panel h2{
+    font-size:1.05rem;
+    font-weight:400;
+    margin:0 0 .2rem;
+    display:flex;
+    align-items:baseline;
+    gap:.6rem;
+  }
+  section.panel h2 .tag{
+    font-family:var(--mono);
+    font-size:.65rem;
+    letter-spacing:.08em;
+    color:var(--gold);
+    border:1px solid var(--gold);
+    padding:.1rem .4rem;
+    border-radius:2px;
+  }
+  section.panel .desc{ color:var(--ink-dim); font-size:.85rem; margin:.3rem 0 1rem; max-width:70ch; }
+
+  .controls{
+    display:flex; flex-wrap:wrap; gap:.6rem 1rem; margin-bottom:1rem;
+    font-family:var(--mono); font-size:.76rem;
+  }
+  .controls label{ color:var(--ink-dim); display:flex; align-items:center; gap:.4rem; }
+  select, .chip-toggle{
+    background:#0f100c; color:var(--ink); border:1px solid var(--line);
+    font-family:var(--mono); font-size:.76rem; padding:.3rem .5rem; border-radius:2px;
+  }
+  .chip-row{ display:flex; flex-wrap:wrap; gap:.4rem; }
+  .chip{
+    font-family:var(--mono); font-size:.72rem; padding:.25rem .55rem;
+    border:1px solid var(--line); border-radius:20px; cursor:pointer;
+    color:var(--ink-dim); user-select:none;
+  }
+  .chip.active{ border-color:var(--gold); color:var(--gold); }
+
+  canvas{ max-height:420px; }
+
+  .empty{
+    color:var(--ink-dim); font-family:var(--mono); font-size:.8rem;
+    padding:2rem 0; text-align:center; border:1px dashed var(--line); border-radius:2px;
+  }
+
+  footer{
+    max-width:1100px; margin:0 auto; padding:1rem 2rem 3rem;
+    color:var(--ink-dim); font-family:var(--mono); font-size:.72rem; line-height:1.6;
+  }
+  footer a{ color:var(--teal); }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="eyebrow">Discogs release data · 1970–1990</div>
+  <h1>Did disco really die in <em>1979</em>?</h1>
+  <p class="sub">
+    Load the CSVs produced by <code>collect_timeseries.js</code> and
+    <code>collect_cooccurrence.js</code> to see what the release record
+    actually shows: a crash, a rebrand, or a migration.
+  </p>
+</header>
+
+<main>
+
+  <div class="loaders">
+    <div class="loader">
+      <label>timeseries.csv</label>
+      <input type="file" id="file-timeseries" accept=".csv" />
+      <div class="status" id="status-timeseries">not loaded</div>
+    </div>
+    <div class="loader">
+      <label>cooccurrence.csv <span style="opacity:.6">(optional)</span></label>
+      <input type="file" id="file-cooc" accept=".csv" />
+      <div class="status" id="status-cooc">not loaded</div>
+    </div>
+  </div>
+
+  <section class="panel">
+    <h2>Worldwide release counts by style <span class="tag">H1 · H4</span></h2>
+    <p class="desc">Annual release count per style, no country filter. Look for a mid/late-70s peak and what happens after 1979 — a cliff, or a slide into related styles.</p>
+    <div class="controls">
+      <div class="chip-row" id="style-chips"></div>
+    </div>
+    <canvas id="chart-worldwide"></canvas>
+    <div class="empty" id="empty-worldwide">Load timeseries.csv to see this chart.</div>
+  </section>
+
+  <section class="panel">
+    <h2>US / UK vs. Italy / Germany / Spain <span class="tag">H3</span></h2>
+    <p class="desc">Disco-style output by country. If the "US-specific death" narrative holds, expect the US/UK lines to fall away after 1979 while European lines hold or keep climbing.</p>
+    <div class="controls">
+      <label>Style:
+        <select id="country-style-select"></select>
+      </label>
+    </div>
+    <canvas id="chart-country"></canvas>
+    <div class="empty" id="empty-country">Load timeseries.csv to see this chart.</div>
+  </section>
+
+  <section class="panel">
+    <h2>Disco vs. the "killers" <span class="tag">H5</span></h2>
+    <p class="desc">Disco output alongside New Wave / Punk / Heavy Metal / Hip Hop, worldwide. A true takeover shows disco falling as these rise, not just both existing.</p>
+    <canvas id="chart-challengers"></canvas>
+    <div class="empty" id="empty-challengers">Load timeseries.csv to see this chart.</div>
+  </section>
+
+  <section class="panel">
+    <h2>What disco releases actually shared a tag with <span class="tag">H4</span></h2>
+    <p class="desc">From a sample of real releases per year, the styles/genres most often co-tagged alongside "Disco" — a clean death looks like a shrinking, undiversified tag; a rebrand looks like a growing tail of Funk/Soul, Electronic, House, Boogie.</p>
+    <div class="controls">
+      <label>Year:
+        <select id="cooc-year-select"></select>
+      </label>
+    </div>
+    <canvas id="chart-cooc"></canvas>
+    <div class="empty" id="empty-cooc">Load cooccurrence.csv to see this chart.</div>
+  </section>
+
+</main>
+
+<footer>
+  Data: Discogs API (community-contributed release metadata — coverage and tagging consistency vary by era and territory; treat as a lower bound / relative-trend signal, not a census of everything released). Chart.js via cdnjs.
+</footer>
+
+<script>
+const PALETTE = ["#d4a72c","#e0507a","#4fa89b","#8b7ec8","#e08a3c","#6fa8dc","#c96d6d","#7fb069","#b18ad4","#d4b16a","#5c9ead","#e0507a"];
+
+function parseCSV(text) {
+  const lines = text.trim().split(/\r?\n/);
+  const headers = splitLine(lines[0]);
+  return lines.slice(1).filter(l => l.trim().length).map(line => {
+    const cells = splitLine(line);
+    const row = {};
+    headers.forEach((h, i) => row[h] = cells[i]);
+    return row;
+  });
+}
+function splitLine(line) {
+  // minimal CSV split honoring simple "quoted,values"
+  const out = [];
+  let cur = "", inQuotes = false;
+  for (let i = 0; i < line.length; i++) {
+    const c = line[i];
+    if (c === '"') { inQuotes = !inQuotes; continue; }
+    if (c === ',' && !inQuotes) { out.push(cur); cur = ""; continue; }
+    cur += c;
+  }
+  out.push(cur);
+  return out;
+}
+
+let TS = [];   // timeseries rows
+let COOC = []; // cooccurrence rows
+
+const chartRefs = {};
+function upsertChart(id, config) {
+  if (chartRefs[id]) chartRefs[id].destroy();
+  chartRefs[id] = new Chart(document.getElementById(id).getContext('2d'), config);
+}
+function baseOptions(extra) {
+  return Object.assign({
+    responsive: true,
+    interaction: { mode: 'index', intersect: false },
+    plugins: {
+      legend: { labels: { color: '#b8ad91', font: { family: 'Courier New' } } },
+      tooltip: { titleFont: { family: 'Courier New' }, bodyFont: { family: 'Courier New' } },
+    },
+    scales: {
+      x: { ticks: { color: '#b8ad91', font: { family: 'Courier New', size: 10 } }, grid: { color: '#26271f' } },
+      y: { ticks: { color: '#b8ad91', font: { family: 'Courier New', size: 10 } }, grid: { color: '#26271f' }, beginAtZero: true },
+    },
+  }, extra || {});
+}
+
+// ---------- timeseries file ----------
+document.getElementById('file-timeseries').addEventListener('change', async (e) => {
+  const f = e.target.files[0];
+  if (!f) return;
+  TS = parseCSV(await f.text()).map(r => ({ ...r, year: +r.year, count: +r.count }));
+  document.getElementById('status-timeseries').textContent = `loaded ${TS.length} rows`;
+  document.getElementById('empty-worldwide').style.display = 'none';
+  document.getElementById('empty-country').style.display = 'none';
+  document.getElementById('empty-challengers').style.display = 'none';
+  initStyleChips();
+  initCountrySelect();
+  renderWorldwide();
+  renderCountry();
+  renderChallengers();
+});
+
+const CHALLENGER_SET = new Set(["New Wave","Punk","Heavy Metal","Hip Hop"]);
+
+function allStyles() {
+  return [...new Set(TS.map(r => r.style))];
+}
+
+function initStyleChips() {
+  const container = document.getElementById('style-chips');
+  container.innerHTML = '';
+  const styles = allStyles().filter(s => !CHALLENGER_SET.has(s));
+  const active = new Set(styles.slice(0, 6)); // default: first few, keep it legible
+  styles.forEach(s => {
+    const chip = document.createElement('div');
+    chip.className = 'chip' + (active.has(s) ? ' active' : '');
+    chip.textContent = s;
+    chip.onclick = () => { chip.classList.toggle('active'); renderWorldwide(); };
+    container.appendChild(chip);
+  });
+}
+
+function selectedStyles() {
+  return [...document.querySelectorAll('#style-chips .chip.active')].map(c => c.textContent);
+}
+
+function renderWorldwide() {
+  const styles = selectedStyles();
+  const rows = TS.filter(r => r.country === 'ALL' && styles.includes(r.style));
+  const years = [...new Set(rows.map(r => r.year))].sort((a,b)=>a-b);
+  const datasets = styles.map((s, i) => ({
+    label: s,
+    data: years.map(y => rows.find(r => r.style === s && r.year === y)?.count ?? 0),
+    borderColor: PALETTE[i % PALETTE.length],
+    backgroundColor: PALETTE[i % PALETTE.length] + '33',
+    tension: 0.25,
+    borderWidth: 2,
+    pointRadius: 2,
+  }));
+  upsertChart('chart-worldwide', {
+    type: 'line',
+    data: { labels: years, datasets },
+    options: baseOptions({ plugins: { annotation: undefined } }),
+  });
+}
+
+function initCountrySelect() {
+  const sel = document.getElementById('country-style-select');
+  sel.innerHTML = '';
+  allStyles().filter(s => !CHALLENGER_SET.has(s)).forEach(s => {
+    const opt = document.createElement('option');
+    opt.value = s; opt.textContent = s;
+    sel.appendChild(opt);
+  });
+  sel.value = 'Disco';
+  sel.onchange = renderCountry;
+}
+
+function renderCountry() {
+  const style = document.getElementById('country-style-select').value;
+  const rows = TS.filter(r => r.style === style && r.country !== 'ALL');
+  const countries = [...new Set(rows.map(r => r.country))];
+  const years = [...new Set(rows.map(r => r.year))].sort((a,b)=>a-b);
+  const datasets = countries.map((c, i) => ({
+    label: c,
+    data: years.map(y => rows.find(r => r.country === c && r.year === y)?.count ?? 0),
+    borderColor: PALETTE[i % PALETTE.length],
+    backgroundColor: PALETTE[i % PALETTE.length] + '33',
+    tension: 0.25,
+    borderWidth: 2,
+    pointRadius: 2,
+  }));
+  upsertChart('chart-country', {
+    type: 'line',
+    data: { labels: years, datasets },
+    options: baseOptions(),
+  });
+}
+
+function renderChallengers() {
+  const styles = ['Disco', ...[...CHALLENGER_SET].filter(s => allStyles().includes(s))];
+  const rows = TS.filter(r => r.country === 'ALL' && styles.includes(r.style));
+  const years = [...new Set(rows.map(r => r.year))].sort((a,b)=>a-b);
+  const datasets = styles.map((s, i) => ({
+    label: s,
+    data: years.map(y => rows.find(r => r.style === s && r.year === y)?.count ?? 0),
+    borderColor: PALETTE[i % PALETTE.length],
+    backgroundColor: PALETTE[i % PALETTE.length] + '33',
+    tension: 0.25,
+    borderWidth: s === 'Disco' ? 3 : 2,
+    pointRadius: 2,
+  }));
+  upsertChart('chart-challengers', {
+    type: 'line',
+    data: { labels: years, datasets },
+    options: baseOptions(),
+  });
+}
+
+// ---------- cooccurrence file ----------
+document.getElementById('file-cooc').addEventListener('change', async (e) => {
+  const f = e.target.files[0];
+  if (!f) return;
+  COOC = parseCSV(await f.text()).map(r => ({ ...r, year: +r.year, co_count: +r.co_count, sample_size: +r.sample_size }));
+  document.getElementById('status-cooc').textContent = `loaded ${COOC.length} rows`;
+  document.getElementById('empty-cooc').style.display = 'none';
+  initCoocYearSelect();
+  renderCooc();
+});
+
+function initCoocYearSelect() {
+  const sel = document.getElementById('cooc-year-select');
+  sel.innerHTML = '';
+  [...new Set(COOC.map(r => r.year))].sort((a,b)=>a-b).forEach(y => {
+    const opt = document.createElement('option');
+    opt.value = y; opt.textContent = y;
+    sel.appendChild(opt);
+  });
+  sel.value = sel.options[sel.options.length - 1]?.value ?? '';
+  sel.onchange = renderCooc;
+}
+
+function renderCooc() {
+  const year = +document.getElementById('cooc-year-select').value;
+  const rows = COOC.filter(r => r.year === year && r.style === 'Disco')
+    .sort((a,b) => b.co_count - a.co_count)
+    .slice(0, 12);
+  upsertChart('chart-cooc', {
+    type: 'bar',
+    data: {
+      labels: rows.map(r => r.co_style),
+      datasets: [{
+        label: `co-tagged with Disco, ${year} (sample n=${rows[0]?.sample_size ?? '?'})`,
+        data: rows.map(r => r.co_count),
+        backgroundColor: PALETTE[1],
+      }],
+    },
+    options: baseOptions({ indexAxis: 'y' }),
+  });
+}
+</script>
+</body>
+</html>

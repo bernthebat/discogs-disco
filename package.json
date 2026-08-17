@@ -1,0 +1,15 @@
+{
+  "name": "discogs-disco-study",
+  "version": "1.0.0",
+  "type": "module",
+  "private": true,
+  "description": "Discogs API data study: did disco die in 1979?",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "timeseries": "node collect_timeseries.js",
+    "cooccurrence": "node collect_cooccurrence.js",
+    "ratings": "node collect_ratings.js"
+  }
+}

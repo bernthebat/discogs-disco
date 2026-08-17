@@ -1,0 +1,60 @@
+name: Collect Discogs disco data
+
+on:
+  workflow_dispatch:
+    inputs:
+      run_ratings:
+        description: "Also run the (slower) ratings sampler"
+        type: boolean
+        default: false
+
+# Lets the workflow push its results back to the repo
+permissions:
+  contents: write
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Run timeseries collector
+        env:
+          DISCOGS_TOKEN: ${{ secrets.DISCOGS_TOKEN }}
+        run: node collect_timeseries.js
+
+      - name: Run co-occurrence collector
+        env:
+          DISCOGS_TOKEN: ${{ secrets.DISCOGS_TOKEN }}
+        run: node collect_cooccurrence.js
+
+      - name: Run ratings collector (optional)
+        if: ${{ inputs.run_ratings }}
+        env:
+          DISCOGS_TOKEN: ${{ secrets.DISCOGS_TOKEN }}
+        run: node collect_ratings.js
+
+      # So you can download the CSVs straight from the run page,
+      # no git pull needed.
+      - name: Upload results as workflow artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: discogs-disco-data
+          path: out/
+
+      # Also commit the results into the repo, so `out/` stays up to
+      # date and future runs can resume from the cached progress.
+      - name: Commit results back to repo
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add out/
+          git diff --cached --quiet && echo "No changes to commit" || git commit -m "Update collected data [skip ci]"
+          git push
